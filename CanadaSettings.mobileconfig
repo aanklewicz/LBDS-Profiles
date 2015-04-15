@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.HIToolbox</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2014-12-01T21:28:24Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppleCurrentKeyboardLayoutInputSourceID</key>
+								<string>com.apple.keylayout.Canadian</string>
+								<key>AppleDateResID</key>
+								<dict>
+									<key>smRoman</key>
+									<integer>0</integer>
+								</dict>
+								<key>AppleEnabledInputSources</key>
+								<array>
+									<dict>
+										<key>InputSourceKind</key>
+										<string>Keyboard Layout</string>
+										<key>KeyboardLayout ID</key>
+										<integer>29</integer>
+										<key>KeyboardLayout Name</key>
+										<string>Canadian</string>
+									</dict>
+									<dict>
+										<key>InputSourceKind</key>
+										<string>Keyboard Layout</string>
+										<key>KeyboardLayout ID</key>
+										<integer>-18432</integer>
+										<key>KeyboardLayout Name</key>
+										<string>Hebrew</string>
+									</dict>
+								</array>
+								<key>AppleInputSourceHistory</key>
+								<array>
+									<dict>
+										<key>InputSourceKind</key>
+										<string>Keyboard Layout</string>
+										<key>KeyboardLayout ID</key>
+										<integer>29</integer>
+										<key>KeyboardLayout Name</key>
+										<string>Canadian</string>
+									</dict>
+								</array>
+								<key>AppleNumberResID</key>
+								<dict>
+									<key>smRoman</key>
+									<integer>0</integer>
+								</dict>
+								<key>AppleSelectedInputSources</key>
+								<array>
+									<dict>
+										<key>InputSourceKind</key>
+										<string>Keyboard Layout</string>
+										<key>KeyboardLayout ID</key>
+										<integer>29</integer>
+										<key>KeyboardLayout Name</key>
+										<string>Canadian</string>
+									</dict>
+								</array>
+								<key>AppleTimeResID</key>
+								<dict>
+									<key>smRoman</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.a5fd557a-5840-4053-a762-ef226ecf01fa.alacarte.customsettings.a430ff9b-1723-4fd2-a500-e23df77720d5</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>a430ff9b-1723-4fd2-a500-e23df77720d5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>.GlobalPreferences</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2014-12-01T21:28:24Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AppleLanguages</key>
+								<array>
+									<string>en-CA</string>
+									<string>en</string>
+									<string>he</string>
+									<string>fr</string>
+									<string>de</string>
+									<string>zh-Hans</string>
+									<string>zh-Hant</string>
+									<string>ja</string>
+									<string>es</string>
+									<string>it</string>
+									<string>nl</string>
+									<string>ko</string>
+									<string>pt</string>
+									<string>pt-PT</string>
+									<string>da</string>
+									<string>fi</string>
+									<string>nb</string>
+									<string>sv</string>
+									<string>ru</string>
+									<string>pl</string>
+									<string>tr</string>
+									<string>ar</string>
+									<string>th</string>
+									<string>cs</string>
+									<string>hu</string>
+									<string>ca</string>
+									<string>hr</string>
+									<string>el</string>
+									<string>ro</string>
+									<string>sk</string>
+									<string>uk</string>
+									<string>id</string>
+									<string>ms</string>
+									<string>vi</string>
+								</array>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.a5fd557a-5840-4053-a762-ef226ecf01fa.alacarte.customsettings.fa1b45f6-f6bf-4a55-933a-6d5cad6a5338</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>fa1b45f6-f6bf-4a55-933a-6d5cad6a5338</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.apple.HIToolbox
+.GlobalPreferences
+</string>
+	<key>PayloadDisplayName</key>
+	<string>Canadian Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>Canada Settings</string>
+	<key>PayloadOrganization</key>
+	<string>LBDS</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>a5fd557a-5840-4053-a762-ef226ecf01fa</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
