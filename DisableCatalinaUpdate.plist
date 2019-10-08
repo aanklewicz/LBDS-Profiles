@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>ssadofsky</string>
+		<key>creation_date</key>
+		<date>2018-04-17T18:01:43Z</date>
+		<key>munki_version</key>
+		<string>3.2.0.3476</string>
+		<key>os_version</key>
+		<string>10.12.6</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>Deployment</string>
+	</array>
+	<key>category</key>
+	<string>Security</string>
+	<key>developer</key>
+	<string>LBDS</string>
+	<key>display_name</key>
+	<string>DisableCatalinaUpdate</string>
+	<key>icon_name</key>
+	<string>macOS_10.14.1_Mojave.png</string>
+	<key>installcheck_script</key>
+	<string>#!/bin/sh
+
+if [ -f /Library/Preferences/com.neverhadtofight.CatalinaSupress ]; then
+echo "It exists!"
+exit 1
+else
+echo "File does not exist"
+exit 0
+fi</string>
+	<key>installer_type</key>
+	<string>nopkg</string>
+	<key>minimum_os_version</key>
+	<string>10.13.0</string>
+	<key>name</key>
+	<string>DisableCatalinaUpdate</string>
+	<key>postinstall_script</key>
+	<string>#!/bin/sh
+
+softwareupdate --ignore "macOS Catalina"
+touch /Library/Preferences/com.neverhadtofight.CatalinaSupress
+
+exit 0</string>
+	<key>unattended_install</key>
+	<true/>
+	<key>unattended_uninstall</key>
+	<true/>
+	<key>uninstall_script</key>
+	<string>#!/bin/sh
+
+softwareupdate --reset-ignored
+rm /Library/Preferences/com.neverhadtofight.CatalinaSupress
+
+exit 0</string>
+	<key>uninstallable</key>
+	<false/>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
